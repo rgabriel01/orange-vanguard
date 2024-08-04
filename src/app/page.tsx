@@ -1,9 +1,13 @@
 import Image from "next/image";
+import Layout from "./components/Layout";
 
-export default function Home() {
+const Home = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      xxxxx MONMON xxxx asdada
+    <main>
+      <Layout />
     </main>
   );
 }
+
+
+export default Home;
