@@ -1,11 +1,17 @@
 import Layout from "../components/Layout";
+import Head from 'next/head';
 import ContentRoutesBody from "./page-body";
 
 const ContentRoutes = () => {
   return (
-    <Layout>
-      <ContentRoutesBody />
-    </Layout>
+    <>
+      <Head>
+        <title>Content Routes</title>
+      </Head>
+      <Layout>
+        <ContentRoutesBody />
+      </Layout>
+    </>
   );
 };
 
