@@ -6,7 +6,7 @@ const PageBody = () => {
     <>
       <div className='mb-4 text-black flex content-center flex-row'>
         <div className='text-3xl'>Deal-A-Day</div>
-        <div className='text-green-900'><CheckBadge /></div>
+        <div className='text-green-900'><CheckBadge classnames='h-10' /></div>
       </div>
       <div className='mb-4 text-black text-xl'>
         9 content routes
@@ -36,8 +36,8 @@ const PageBody = () => {
           />
         </div>
 
-        <div className='text-black flex flex-wrap content-center flex-row gap-x-1 justify-items-center'>
-          <div><Information /></div>
+        <div className='text-black flex content-center flex-row gap-x-1 justify-items-center'>
+          <Information classnames='h-10' />
           <div>
             <input
               type='text'

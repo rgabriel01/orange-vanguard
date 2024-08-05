@@ -1,8 +1,12 @@
 const RedShield = () => (
-  <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-   width="20.000000pt" height="20.000000pt" viewBox="0 0 1045.000000 1097.000000"
-   preserveAspectRatio="xMidYMid meet">
-
+  <svg
+    version="1.0"
+    xmlns="http://www.w3.org/2000/svg"
+    width="20.000000pt"
+    height="20.000000pt"
+    viewBox="0 0 1045.000000 1097.000000"
+    preserveAspectRatio="xMidYMid meet"
+  >
   <g transform="translate(0.000000,1097.000000) scale(0.100000,-0.100000)"
   fill="#D62123" stroke="none">
   <path d="M4655 9889 c-917 -64 -1804 -282 -2595 -638 -188 -85 -544 -271 -710
