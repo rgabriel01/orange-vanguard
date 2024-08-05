@@ -1,7 +1,13 @@
 import { Add, CheckBadge, Filter, Information } from '../components/Icons';
 import { ButtonWithIcon } from '../components/Buttons';
+import { Collapse } from 'antd';
 
 const PageBody = () => {
+  const items = [{
+    key: '1',
+    label: 'This is panel header 1',
+    children: <p>mon</p>,
+  }]
   return (
     <>
       <div className='mb-4 text-black flex content-center flex-row'>
@@ -54,6 +60,8 @@ const PageBody = () => {
           </div>
         </div>
       </div>
+
+      <Collapse items={items} defaultActiveKey={['1']} />
     </>
   )
 }
