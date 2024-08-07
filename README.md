@@ -19,3 +19,6 @@ If opting to use natively
 npm install
 npm run dev
 ```
+
+To start app, use url:
+http://localhost:3000/content-routes
