@@ -1,10 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
+## Pre-requisites
+As of time of writing:
+Node ^v18
+
 ## Starting/Building the application
+If opting to use docker:
+```bash
+docker build
+```
+then
 ```bash
 docker-compose up
 ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+If opting to use natively
+```bash
+npm install
+npm run dev
+```
