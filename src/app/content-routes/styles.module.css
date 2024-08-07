@@ -1,0 +1,16 @@
+.name {
+  padding: 15px;
+  min-width: 215px;
+}
+
+.service_reference {
+  min-width: 215px;
+}
+
+.hostnames {
+  min-width: 580px;
+}
+
+.pops{
+  min-width: 400px;
+}

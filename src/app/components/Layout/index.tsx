@@ -31,7 +31,7 @@ const Layout = ({
         </div>
       </div>
 
-      <div className='flex content-center flex-row'>
+      <div className='flex content-center flex-row bg-gray-100'>
         <div className='h-screen bg-slate-900'>
           <div className='flex flex-wrap flex-col gap-y-9 p-5 border-b-2 border-zinc-500'>
             <div className='cursor-pointer'><Search /></div>
